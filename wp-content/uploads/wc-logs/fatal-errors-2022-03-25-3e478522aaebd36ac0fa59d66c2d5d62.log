@@ -1,0 +1,11 @@
+2022-03-25T14:57:25+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in /home/u708634252/domains/codewithakki.com/public_html/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 /home/u708634252/domains/codewithakki.com/public_html/wp-includes/class-wp-widget.php(456): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 /home/u708634252/domains/codewithakki.com/public_html/wp-admin/includes/ajax-actions.php(2356): WP_Widget->update_callback(Array)
+#2 /home/u708634252/domains/codewithakki.com/public_html/wp-includes/class-wp-hook.php(307): wp_ajax_save_widget('')
+#3 /home/u708634252/domains/codewithakki.com/public_html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 /home/u708634252/domains/codewithakki.com/public_html/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#5 /home/u708634252/domains/codewithakki.com/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_save-wi...')
+#6 {main}
+  thrown in /home/u708634252/domains/codewithakki.com/public_html/wp-content/themes/woostify/inc/widget/class-woostify-recent-post-thumbnail.php on line 148
+
